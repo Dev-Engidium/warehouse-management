@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<template id="index" inherit_id="point_of_sale.index">
+    <xpath expr="//title" position="replace">
+        <title>POS - NGDM</title>
+    </xpath>
+    <xpath position="replace" expr="//link[@type='image/x-icon']">
+            <link type="image/x-icon" rel="shortcut icon"
+                  href="/pos_debranding/static/src/img/favicon.ico"/>
+        </xpath>
+</template>
+</openerp>
